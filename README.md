@@ -32,6 +32,27 @@ Both installation scripts support the following options:
 - `-r, --remove`: Remove the theme
 - `-h, --help`: Show help
 
+## Better Together
+
+For the full Nothing OS experience on Linux, we recommend pairing these icons with the following components:
+
+### 1. Nothing Widgets
+Desktop widgets (Audio Visualizer, Weather, System Monitors) styled with the dot-matrix aesthetic.
+```bash
+git clone https://github.com/asernasr/nothing-widgets.git
+cd nothing-widgets
+./install.sh
+```
+
+### 2. Graphite GTK Theme
+These icons pair perfectly with the **Graphite GTK Theme** (Dark/Compact variant).
+- Repository: [vinceliuice/Graphite-gtk-theme](https://github.com/vinceliuice/Graphite-gtk-theme)
+
+### 3. Signature Fonts
+Ensure you have the dot-matrix fonts installed for the full UI effect:
+- **Ndot 55** & **NType 82**
+- Available at: [xeji01/nothingfont](https://github.com/xeji01/nothingfont)
+
 ## Usage
 
 After installation, you can apply the icon theme using your desktop's customization tool:
