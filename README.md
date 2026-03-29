@@ -2,6 +2,8 @@
 
 A clean and minimal icon theme for Linux desktops, inspired by the Nothing OS aesthetic.
 
+![Screenshot](screenshot.png)
+
 ## Features
 
 - **Minimalist Design**: High-contrast, dot-matrix inspired icons.
