@@ -106,7 +106,10 @@ install_theme() {
   for d in 16 22 24 32 256 symbolic; do
     [ -d "${SHARED_BASE}/${d}" ] && rel_link "${SHARED_BASE}/${d}" "${TMP_DIR}/${d}"
   done
-  rel_link "${SHARED_BASE}/scalable" "${TMP_DIR}/scalable"
+  # Use a real directory (not a symlink) for scalable so that GTK's icon lookup
+  # and gtk-update-icon-cache can traverse it without symlink-following issues
+  # (relevant for snap-sandboxed apps like Firefox on Ubuntu).
+  merge_copy "${SHARED_BASE}/scalable" "${TMP_DIR}/scalable"
 
   for mult in 2 3; do
     rel_link "${TMP_DIR}/16"       "${TMP_DIR}/16@${mult}x"      2>/dev/null || true

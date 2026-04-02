@@ -299,7 +299,26 @@ CUSTOM_SVGS = {
     "yelp": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
     </svg>""",
+    # GNOME Boxes
+    "org.gnome.Boxes": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M2 2h20v20H2z" fill="none" stroke="black" stroke-width="1.5"/>
+      <path d="M7 7h10v10H7z" fill="none" stroke="black" stroke-width="1.5"/>
+      <path d="M2 2l5 5 M22 2l-5 5 M2 22l5-5 M22 22l-5-5" stroke="black" stroke-width="1.5"/>
+    </svg>""",
+
+    # Cubic (Custom Ubuntu ISO Creator)
+    "cubic": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <!-- Main Isometric Cube -->
+      <path d="M12 2 L4.5 6.5v11L12 22l7.5-4.5v-11L12 2z" fill="none" stroke="black" stroke-width="1.5"/>
+      <path d="M12 12 L12 22 M12 12 L4.5 6.5 M12 12 L19.5 6.5" stroke="black" stroke-width="1.2"/>
+      <!-- Ubuntu-style segments (dot-matrix) -->
+      <circle cx="12" cy="12" r="2.5" fill="none" stroke="black" stroke-width="0.8"/>
+      <circle cx="12" cy="9.5" r="1" fill="black"/>
+      <circle cx="9.8" cy="13.2" r="1" fill="black"/>
+      <circle cx="14.2" cy="13.2" r="1" fill="black"/>
+    </svg>""",
 }
+
 
 # ---------------------------------------------------------------------------
 # Brand icons from simple-icons + their output filename (GNOME icon name)
@@ -346,6 +365,7 @@ BRAND_ICONS = [
     ("siWikipedia",             "wikipedia"),
     ("siPerplexity",            "perplexity"),
     # Google web apps
+    ("siGooglegemini",          "gemini"),
     ("siGmail",                 "gmail"),
     ("siGoogledrive",           "google-drive"),
     ("siGoogledocs",            "google-docs"),

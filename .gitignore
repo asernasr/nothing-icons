@@ -1,2 +1,8 @@
 fluent-icon-theme/
 .claude/
+node_modules/
+venv/
+output/
+__pycache__/
+.DS_Store
+*.tmp.*
